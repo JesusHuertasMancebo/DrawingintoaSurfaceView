@@ -57,6 +57,7 @@ public class MyBallSurfaceView extends SurfaceView implements SurfaceHolder.Call
     }
     public boolean onTouchEvent(MotionEvent motionEvent){
         float currentDown;
+        float currentUp;
 
         switch (motionEvent.getAction()){
             case MotionEvent.ACTION_DOWN:{
